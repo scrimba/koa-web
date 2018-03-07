@@ -1,0 +1,16 @@
+---
+language: node_js
+node_js:
+  - node
+
+cache: yarn
+
+dist: trusty
+
+install:
+  - yarn
+  - npm run build-test
+
+script:
+  - npm test
+
