@@ -1,4 +1,5 @@
 {
+  "name": "scrimba-koa-web",
   "version": "1.0.0",
   "devDependencies": {
     "puppeteer": "^1.1.1",
